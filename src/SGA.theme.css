@@ -8,7 +8,8 @@
 
 @font-face {
     font-family: 'sga';
-    src: url('sga.ttf');
+    /* Looks for the local file in your client's directory */
+    src: url('sga.ttf') format('truetype');
 }
 
 :root {
